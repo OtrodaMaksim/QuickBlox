@@ -1,0 +1,231 @@
+header {
+	width:100%;
+	display:block;
+	position:relative;
+	background: #3978FC;
+	overflow: hidden;
+
+	.layout{
+		position: relative;
+		overflow: hidden;
+		margin: 0 auto;
+		width: 1180px;
+		height: 100%;
+		text-align: center;
+		@media (min-width: 320px) and (max-width: 1279px){
+			margin: 0 auto;
+			width: 100%;
+		}
+
+		.logo{
+			display: inline-block;
+			overflow: hidden;
+			margin: 27px 0 15px 0;
+			@media (min-width: 1024px) and (max-width: 1279px){
+				display: block;
+				text-align: center;
+			}
+			@media (min-width: 320px) and (max-width: 1023px) {
+				display: block;
+				text-align: center;
+			}
+		}
+		nav{
+			position: block;
+			display: inline-block;
+			float: center;
+			vertical-align: top;
+			@media (min-width: 320px) and (max-width: 1023px){
+				display: block;
+			}
+			ul{
+				display: inline-block;
+				margin: 31px 65px 0 120px;
+				@media (min-width: 320px) and (max-width: 1023px){
+					display: block;
+				}
+				li{
+					display: inline-block;
+					overflow: hidden;
+					margin: 0 40px 0 0;
+					a{
+						color: #FFFFFF;
+						cursor:pointer;
+						font-family: 'Open Sans', sans-serif;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 16px;
+						line-height: 22px;
+					}
+				}
+				li.contacts{
+					margin: 0 0 0 0;
+				}
+			}
+			.right_menu{
+				display: inline-block;
+				overflow: hidden;
+				float: right;
+				margin: 29px 0 0 0;
+				@media (min-width: 320px) and (max-width: 1023px){
+					display: block;
+					text-align: center;
+					float: none;
+				}
+
+				.in{
+					display: inline-block;
+					overflow: hidden;
+					margin: 0 8px 0 0;
+					a{
+						color: #FFFFFF;
+						font-family: 'Open Sans', sans-serif;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 16px;
+						line-height: 22px;
+						
+						&:hover{
+							color: #3978FC;
+							display: inline-block;
+							overflow: hidden;
+							background: #FFFFFF;
+							border-radius: 22px 22px 0px 22px;
+						}
+						p{
+						margin: 2px 21px 2px 22px;
+						font-family: 'Open Sans', sans-serif;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 16px;
+						line-height: 22px;
+
+						}
+					}
+				}
+				a.up{
+					vertical-align: top;
+					display: inline-block;
+					color: #FFFFFF;
+					font-family: 'Open Sans', sans-serif;
+					font-style: normal;
+					font-weight: 600;
+					font-size: 16px;
+					line-height: 22px;
+					&:hover{
+						color: #3978FC;
+						display: inline-block;
+						overflow: hidden;
+						background: #FFFFFF;
+						border-radius: 22px 22px 0px 22px;
+					}
+					p{
+						margin: 2px 21px 2px 22px;
+						font-family: 'Open Sans', sans-serif;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 16px;
+						line-height: 22px;
+					}
+				}
+
+			}
+		}
+		hr{
+		border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 1), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 1), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 1), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 1), rgba(0,0,0,0));
+		}
+	}
+	.inform_header{
+		position: relative;
+		display: block;
+		width: 1180px;
+		margin: 0 auto;
+		@media (min-width: 320px) and (max-width: 1279px){
+			width: 100%;
+			padding: 0 0 30px 0;
+		}
+		.sketch{
+			position: absolute;
+			margin: 65px 0 0 0;
+			right: -146px;
+			width: 824px;
+			height: 508px;
+			@media (min-width: 320px) and (max-width: 666px){
+				display: none;
+			}
+
+		}
+		.docket{
+			position: relative;
+			display: block;
+			overflow: hidden;
+			margin: 90px 0 147px 0;
+			@media (min-width: 320px) and (max-width: 1279px){
+				display: block;
+				text-align: center;
+				margin: 0 auto;
+			}
+
+			h2{
+				margin: 0 0 40px 0;
+				color: white;
+				font-family: 'Open Sans', sans-serif;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 48px;
+				line-height: 65px;
+			}
+			p.text{
+				margin: 0 0 40px 0;
+				width: 600px;
+				color: white;
+				overflow: hidden;
+				font-family: 'Open Sans', sans-serif;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 20px;
+				line-height: 32px;
+				@media (min-width: 320px) and (max-width: 1279px){
+					display: block;
+					text-align: center;
+					margin: 0 auto;
+				}
+				@media (min-width: 320px) and (max-width: 666px){
+					display: none;
+				}
+			}
+			a{
+				position: relative;
+				display: block;
+				overflow: hidden;
+				width: 250px;
+				height: 60px;
+				background: #FFD421;
+				box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.250191);
+				border-radius: 5px;
+				text-align: center;
+				@media (min-width: 320px) and (max-width: 1279px){
+					display: block;
+					text-align: center;
+					margin: 0 auto;
+				}
+				p{
+					color: #333333;
+					margin: 13px 0 0 0;
+					font-family: 'Open Sans', sans-serif;
+					font-style: normal;
+					font-weight: 600;
+					font-size: 24px;
+					line-height: 33px;
+					text-align: center;
+				}
+
+			}
+		}
+	}
+}
